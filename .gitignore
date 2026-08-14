@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# dbt credentials (contain plaintext Snowflake passwords)
+**/profiles.yml
+**/EXprofiles.yml
